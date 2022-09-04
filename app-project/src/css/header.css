@@ -30,7 +30,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009b19', end
 }
 .actwo a{-webkit-background-clip:text; -webkit-text-fill-color:transparent;}
 
-
 /* Border */
 .navigation-main{border:1px solid #028217;}
 .navigation-main li{border-left:1px solid #65ed21;}
@@ -38,7 +37,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009b19', end
 .user-sign{border:1px solid #111;}
 .user-sign li a{border-left:1px solid #111;}
 .user-sign li:first-child a{border-right:1px solid #555;}
-asd{border:1px solid #666;}
+/* asd{border:1px solid #666;} */
 .user-avatar{border:1px solid #999;}
 .user-evince, .dropdown ul{border:1px solid #CCC;}
 .dropdown ul li{border-top:1px solid #CCC; border-bottom:1px solid #EEE;}

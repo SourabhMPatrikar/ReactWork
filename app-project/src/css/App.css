@@ -1,73 +1,13 @@
+@import url('./font.css');
+@import url('./tags.css');
+@import url('./button.css');
+@import url('./dropdown.css');
+@import url('./navigation.css');
+@import url('./base.css');
+@import url('./header.css');
 
-
-
-
-.app{}
-#wrapper{}
-header{}
-#content
-footer{}
-header{}
-#content{}
-footer{}
-/* header{border:10px solid #00ff40;}
+/*
+header{border:10px solid #00ff40;}
 #content{border:10px solid #00bfff;}
-footer{border:10px solid #6a00ff;} */
-
-
-
-
-
-/* Colors */
-.dropdown ul li a{color:#666;}
-.dropdown ul li:hover a{color:#222;}
-
-/* Background */
-.navigation-default ul li a{background:#FEFEFE;}
-.navigation-default ul li:hover a{background:#EEE;}
-.dropdown ul{background:#FAFAFA;}
-.dropdown ul li:hover{background:#FFF;}
-
-/* Text Color */
-.btn{background:#FEFEFE;}
-.btn-default{background:#EEE;}
-
-
-
-
-/* Text Shadow */
-/* .actwo a{text-shadow:0 2px 1px #f00;} */
-.navigation li a{text-shadow:1px 1px 1px #000;}
-
-
-
-
-
-
-
-
-
-
-
-/* Radius */
-.btn{border-radius:3px;}
-.dropdown ul{border-radius:4px;}
-
-/* Navigation : Begin */
-.navigation, .navigation ul, .navigation ul li, .navigation ul li a{float:left;}
-.navigation ul li a{padding:9px 15px;}
-/* Navigation : End */
-
-
-/* Dropdown : Begin */
-.dropdown{position:absolute; z-index:999;}
-.dropdown ul, .dropdown ul li, .dropdown ul li a{width:100%; float:left;}
-.dropdown ul{max-width:calc(100% - 2px);}
-.dropdown ul{overflow:hidden;}
-.dropdown ul li a{padding:7px 7px 7px 10px; font-size:14px;}
-.dropdown ul li:first-child{border-top:0;}
-.dropdown ul li:last-child{border-bottom:0;}
-/* Dropdown : End */
-
-
-
+footer{border:10px solid #6a00ff;}
+*/

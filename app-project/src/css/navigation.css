@@ -1,0 +1,11 @@
+/* Background */
+.navigation-default ul li a{background:#FEFEFE;}
+.navigation-default ul li:hover a{background:#EEE;}
+
+/* Text Shadow */
+.navigation li a{text-shadow:1px 1px 1px #000;}
+
+/* Navigation : Begin */
+.navigation, .navigation ul, .navigation ul li, .navigation ul li a{float:left;}
+.navigation ul li a{padding:9px 15px;}
+/* Navigation : End */

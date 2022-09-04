@@ -1,11 +1,33 @@
+/* Colors */
 body{color:#333;}
+
+/* Background */
+.header-top{background:#333;}
+.header-main{background:#fff;}
+.header-btm{background:#eee;}
+#content{background:#eee;}
+footer{background:#454545;}
+
+/* Base Structure : Begin */
+.app{}
+#wrapper{}
+header{}
+#content
+footer{}
+header{}
+#content{}
+footer{}
+
+
+/* Elements */
 #wrapper, header, #content, footer{}
 .header-top,
 .header-main,
 .header-btm{width:100%; float:left; clear:both;}
-.header-top{background:#333; height:5px;}
-.header-main{background:#fff; height:85px;}
-.header-btm{background:#eee; /*height:45px;*/}
-#content{min-height:450px; padding:20px; background:#eee;}
-footer{background:#454545; height:200px;}
+.header-top{height:5px;}
+.header-main{height:85px;}
+.header-btm{}
+#content{min-height:450px; padding:20px; }
+footer{height:200px;}
 .clear-fix{clear:both;}
+/* Base Structure : End */

@@ -19,7 +19,6 @@ const Content = () => {
                 <Button btnText="warn" variant="warn" />
             </div>
         </div>
-        
     );
 }
 export default Content;

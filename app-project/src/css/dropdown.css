@@ -1,0 +1,20 @@
+/* Colors */
+.dropdown ul li a{color:#666;}
+.dropdown ul li:hover a{color:#222;}
+
+/* Background */
+.dropdown ul{background:#FAFAFA;}
+.dropdown ul li:hover{background:#FFF;}
+
+/* Radius */
+.dropdown ul{border-radius:4px;}
+
+/* Dropdown : Begin */
+.dropdown{position:absolute; z-index:999;}
+.dropdown ul, .dropdown ul li, .dropdown ul li a{width:100%; float:left;}
+.dropdown ul{max-width:calc(100% - 2px);}
+.dropdown ul{overflow:hidden;}
+.dropdown ul li a{padding:7px 7px 7px 10px; font-size:14px;}
+.dropdown ul li:first-child{border-top:0;}
+.dropdown ul li:last-child{border-bottom:0;}
+/* Dropdown : End */

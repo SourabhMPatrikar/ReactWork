@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './css/app.css';
 import Wrapper from "./Components/Base/Wrapper"; 
 function App() {
@@ -8,5 +7,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
