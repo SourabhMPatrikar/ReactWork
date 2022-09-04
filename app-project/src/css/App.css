@@ -1,46 +1,3 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-
-
-
-
 
 
 
@@ -62,60 +19,20 @@ footer{border:10px solid #6a00ff;} */
 
 
 /* Colors */
-.dropdown ul li a, .user-name{color:#666;}
-.dropdown ul li:hover a, .user-evince:hover .user-name:hover{color:#222;}
-.user-sign li a, .navigation-main li a{color:#EEE;}
-.user-sign li:hover a, .navigation-main li:hover a{color:#FFF;}
+.dropdown ul li a{color:#666;}
+.dropdown ul li:hover a{color:#222;}
 
 /* Background */
 .navigation-default ul li a{background:#FEFEFE;}
 .navigation-default ul li:hover a{background:#EEE;}
-.user-evince{background:#F6F6F6;}
 .dropdown ul{background:#FAFAFA;}
 .dropdown ul li:hover{background:#FFF;}
-.navigation-main{background: #65ed21; 
-background: -moz-linear-gradient(top,  #65ed21 0%, #009b19 100%); 
-background: -webkit-linear-gradient(top,  #65ed21 0%,#009b19 100%); 
-background: linear-gradient(to bottom,  #65ed21 0%,#009b19 100%); 
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65ed21', endColorstr='#009b19',GradientType=0 );
-}
-.user-sign li a{
-background: #555555;
-background: -moz-linear-gradient(top,  #555555 0%, #111111 100%);
-background: -webkit-linear-gradient(top,  #555555 0%,#111111 100%);
-background: linear-gradient(to bottom,  #555555 0%,#111111 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#111111',GradientType=0 );
-}
+
 /* Text Color */
-.actwo a{
-background: #009b19;
-background: -moz-linear-gradient(top,  #009b19 2%, #65ed21 21%, #65ed21 25%, #009b19 55%, #007713 80%, #000000 80%, #000000 80%); 
-background: -webkit-linear-gradient(top,  #009b19 2%,#65ed21 21%,#65ed21 25%,#009b19 55%,#007713 80%,#000000 80%,#000000 80%); 
-background: linear-gradient(to bottom,  #009b19 2%,#65ed21 21%,#65ed21 25%,#009b19 55%,#007713 80%,#000000 80%,#000000 80%); 
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009b19', endColorstr='#000000',GradientType=0 ); 
-}
-.actwo a{-webkit-background-clip:text; -webkit-text-fill-color:transparent;}
 .btn{background:#FEFEFE;}
 .btn-default{background:#EEE;}
 
-/* Border */
-.navigation-main{border:1px solid #028217;}
-.navigation-main li{border-left:1px solid #65ed21;}
-.navigation-main li a{border-left:1px solid #028217;}
-.user-sign{border:1px solid #111;}
-.user-sign li a{border-left:1px solid #111;}
-.user-sign li:first-child a{border-right:1px solid #555;}
-asd{border:1px solid #666;}
-.user-avatar{border:1px solid #999;}
-.user-evince, .dropdown ul{border:1px solid #CCC;}
-.dropdown ul li{border-top:1px solid #CCC; border-bottom:1px solid #EEE;}
 
-
-
-
-
-.user-name:after{border-left:6px solid transparent; border-right:6px solid transparent; border-top:7px solid #666;}
-.user-evince:hover .user-name:after{border-top:7px solid #222;}
 
 
 /* Text Shadow */
