@@ -1,0 +1,27 @@
+
+/* Radius */
+.user-avatar, .navigation-main, .user-sign{overflow:hidden;}
+.user-avatar{border-radius:50%;}
+.navigation-main, .user-sign, .navigation-main ul, .user-sign ul{border-radius:3px;}
+.user-evince{border-radius:4px;}
+
+/* Header : Begin */
+.actwo{float:left; margin:25px 25px 0 25px;}
+.actwo a{float:left; font-size:42px; line-height:42px;}
+.user-point{float:right; margin-left:25px; margin-right:25px;}
+.navigation-main, .user-point{margin-top:25px;}
+.navigation-main.navigation{float:none; overflow:hidden;}
+.navigation-main li:first-child, .navigation-main li:first-child a{border-left:0;}
+.navigation-main ul{display:flex; flex-direction:row; float:none;}
+.navigation-main ul li{flex:0%; float:none;}
+.navigation-main ul li a{width:100%; text-align:center; padding:9px 0;}
+.user-exhibition, .user-evince, .user-avatar, .user-avatar img, .user-name{float:left;}
+.user-sign ul li:first-child a{border-left:0;}
+.user-exhibition{position:relative; margin:0 0 0 25px;}
+.user-evince{padding:0 10px;}
+.user-avatar{height:40px; margin:-4px 0;}
+.user-avatar, .user-avatar img{width:40px;}
+.user-name{margin:7px 10px 0 10px; padding:0 10px 0 0;}
+.user-name:after{content:""; position:absolute; right:10px; top:15px;}
+.user-dropdown{width:100px; right:0; top:36px; }
+/* Header : End */

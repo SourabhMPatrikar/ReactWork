@@ -38,18 +38,12 @@
 } */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 
-body{}
-html, body, ul, li, ol, h1, h2, h3, h4, h5, h6{padding:0; margin:0;}
-li, ol{list-style:none;}
-a, a:hover, a:focus{text-decoration:none;}
-p, a{line-height:16px;}
 
 
-body{font-weight:400; font-size:14px;}
+
+
 
 .app{}
 #wrapper{}
@@ -65,19 +59,9 @@ footer{border:10px solid #6a00ff;} */
 
 
 
-#wrapper, header, #content, footer{}
-.header-top,
-.header-main,
-.header-btm{width:100%; float:left; clear:both;}
-.header-top{background:#333; height:5px;}
-.header-main{background:#fff; height:85px;}
-.header-btm{background:#eee; /*height:45px;*/}
-#content{min-height:450px; padding:20px; background:#eee;}
-footer{background:#454545; height:200px;}
-.clear-fix{clear:both;}
+
 
 /* Colors */
-body{color:#333;}
 .dropdown ul li a, .user-name{color:#666;}
 .dropdown ul li:hover a, .user-evince:hover .user-name:hover{color:#222;}
 .user-sign li a, .navigation-main li a{color:#EEE;}
@@ -127,53 +111,8 @@ asd{border:1px solid #666;}
 .dropdown ul li{border-top:1px solid #CCC; border-bottom:1px solid #EEE;}
 
 
-/* Button : Begin */
-.btn{background:#FEFEFE;}
-.btn-default{background:#CCC;}
-.btn-info{background:#65ed21;}
-.btn-primary{background:#017d15;}
-.btn-secondary{background:#03380c;}
-.btn-dark{background:#2D2D2D;}
-.btn-light{background:#b7ffbc;}
-.btn-success{background:#057a16;}
-.btn-danger{background:#ff0000;}
-.btn-warn{background:#d9fa01;}
-
-.btn{border:1px solid #CCC;}
-.btn-default{border:1px solid #AAA;}
-.btn-info{border:1px solid #318607;}
-.btn-primary{border:1px solid #046915;}
-.btn-secondary{border:1px solid #032c0a;}
-.btn-dark{border:1px solid #242424;}
-.btn-light{border:1px solid #3e553f;}
-.btn-success{border:1px solid #026912;}
-.btn-danger{border:1px solid #930303;}
-.btn-warn{border:1px solid #8ca104;}
-
-.btn{color:#666;}
-.btn-default{color:#444;}
-.btn-info{color:#EEE;}
-.btn-primary{color:#EEE;}
-.btn-secondary{color:#EEE;}
-.btn-dark{color:#CCC;}
-.btn-light{color:#444;}
-.btn-success{color:#EEE;}
-.btn-danger{color:#EEE;}
-.btn-warn{color:#333;}
-/* Button : End */
 
 
-/* Button : Begin */
-.btn{padding:10px 15px;}
-.btn{}
-.btn-box{}
-.btn-box .btn{margin:0 0 0 5px;}
-.btn-box .btn:first-child{margin:0;}
-.btn-box.lefter{float:left;}
-.btn-box.center{text-align:center;}
-.btn-box.center .btn{display:inline-block;}
-.btn-box.righter{float:right;}
-/* Button : End */
 
 .user-name:after{border-left:6px solid transparent; border-right:6px solid transparent; border-top:7px solid #666;}
 .user-evince:hover .user-name:after{border-top:7px solid #222;}
@@ -184,29 +123,18 @@ asd{border:1px solid #666;}
 .navigation li a{text-shadow:1px 1px 1px #000;}
 
 
-/* Font Radius */
-.user-avatar, .navigation-main, .user-sign{overflow:hidden;}
-.user-avatar{border-radius:50%;}
-.btn, .navigation-main, .user-sign, .navigation-main ul, .user-sign ul{border-radius:3px;}
-.dropdown ul, .user-evince{border-radius:4px;}
 
 
 
 
 
-/* Font Family */
-html, body, .actwo{font-family:'Poppins', sans-serif; }
-h1, h2, h3, h4, h5, h6
-{font-family: 'Oswald', sans-serif;}
 
 
 
 
-
-/* Font Weight */
-.navigation li a, .user-name{font-weight:500;}
-.actwo{font-weight:900;}
-
+/* Radius */
+.btn{border-radius:3px;}
+.dropdown ul{border-radius:4px;}
 
 /* Navigation : Begin */
 .navigation, .navigation ul, .navigation ul li, .navigation ul li a{float:left;}
@@ -225,24 +153,4 @@ h1, h2, h3, h4, h5, h6
 /* Dropdown : End */
 
 
-/* Header : Begin */
-.actwo{float:left; margin:25px 25px 0 25px;}
-.actwo a{float:left; font-size:42px; line-height:42px;}
-.user-point{float:right; margin-left:25px; margin-right:25px;}
-.navigation-main, .user-point{margin-top:25px;}
-.navigation-main.navigation{float:none; overflow:hidden;}
-.navigation-main li:first-child, .navigation-main li:first-child a{border-left:0;}
-.navigation-main ul{display:flex; flex-direction:row; float:none;}
-.navigation-main ul li{flex:0%; float:none;}
-.navigation-main ul li a{width:100%; text-align:center; padding:9px 0;}
-.user-exhibition, .user-evince, .user-avatar, .user-avatar img, .user-name{float:left;}
-.user-sign ul li:first-child a{border-left:0;}
-.user-exhibition{position:relative; margin:0 0 0 25px;}
-.user-evince{padding:0 10px;}
-.user-avatar{height:40px; margin:-4px 0;}
-.user-avatar, .user-avatar img{width:40px;}
-.user-name{margin:7px 10px 0 10px; padding:0 10px 0 0;}
-.user-name:after{content:""; position:absolute; right:10px; top:15px;}
-.user-dropdown{width:100px; right:0; top:36px; }
-/* Header : End */
 

@@ -1,0 +1,47 @@
+
+/* Button : Color : Begin */
+.btn{background:#FEFEFE;}
+.btn-default{background:#CCC;}
+.btn-info{background:#65ed21;}
+.btn-primary{background:#017d15;}
+.btn-secondary{background:#03380c;}
+.btn-dark{background:#2D2D2D;}
+.btn-light{background:#b7ffbc;}
+.btn-success{background:#057a16;}
+.btn-danger{background:#ff0000;}
+.btn-warn{background:#d9fa01;}
+
+.btn{border:1px solid #CCC;}
+.btn-default{border:1px solid #AAA;}
+.btn-info{border:1px solid #318607;}
+.btn-primary{border:1px solid #046915;}
+.btn-secondary{border:1px solid #032c0a;}
+.btn-dark{border:1px solid #242424;}
+.btn-light{border:1px solid #3e553f;}
+.btn-success{border:1px solid #026912;}
+.btn-danger{border:1px solid #930303;}
+.btn-warn{border:1px solid #8ca104;}
+
+.btn{color:#666;}
+.btn-default{color:#444;}
+.btn-info{color:#EEE;}
+.btn-primary{color:#EEE;}
+.btn-secondary{color:#EEE;}
+.btn-dark{color:#CCC;}
+.btn-light{color:#444;}
+.btn-success{color:#EEE;}
+.btn-danger{color:#EEE;}
+.btn-warn{color:#333;}
+/* Button : Color : End */
+
+/* Button : Begin */
+.btn{padding:10px 15px;}
+.btn{}
+.btn-box{}
+.btn-box .btn{margin:0 0 0 5px;}
+.btn-box .btn:first-child{margin:0;}
+.btn-box.lefter{float:left;}
+.btn-box.center{text-align:center;}
+.btn-box.center .btn{display:inline-block;}
+.btn-box.righter{float:right;}
+/* Button : End */
