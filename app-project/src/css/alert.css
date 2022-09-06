@@ -1,0 +1,32 @@
+/* Radius */
+.alert p.bold{font-weight:600;}
+
+/* Radius */
+.alert{border-radius:3px;}
+
+/* Button : Color : Begin */
+.alert{background:#DDD;}
+.alert-success{background:rgba(5, 122, 22, .5);}
+.alert-danger{background:rgba(255, 0, 0, .5);}
+.alert-warn{background:rgba(217, 250, 1);}
+
+.alert{border:1px solid #999;}
+.alert-success{border:1px solid #026912;}
+.alert-danger{border:1px solid #930303;}
+.alert-warn{border:1px solid #8ca104;}
+
+.alert{color:#777;}
+.alert-success{color:#067102;}
+.alert-danger{color:#9f0303;}
+.alert-warn{color:#997803;}
+/* Button : Color : End */
+
+/* Button : Begin */
+.alert{padding:15px 12px;}
+.alert p{width:calc(100% - 50px);}
+.alert p.bold{font-weight:600;}
+.alert p.italic{font-style:italic;}
+.alert p.under-line{text-decoration:underline;}
+/* Button : End */
+
+.common-component .row .alert + .alert{clear:both; margin:10px 0 0;}
