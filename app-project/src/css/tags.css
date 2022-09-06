@@ -1,5 +1,5 @@
 body{font-weight:400; font-size:14px;}
-html, body, ul, li, ol, h1, h2, h3, h4, h5, h6{padding:0; margin:0;}
+html, body, ul, li, ol, h1, h2, h3, h4, h5, h6, p{padding:0; margin:0;}
 li, ol{list-style:none;}
 a, a:hover, a:focus{text-decoration:none;}
 p, a{line-height:16px;}

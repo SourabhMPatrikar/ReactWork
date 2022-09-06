@@ -40,7 +40,7 @@
 .btn{padding:10px 15px;}
 .btn{}
 .btn-box{}
-.btn-box .btn{margin:0 0 0 5px;}
+.btn-box .btn{margin:0 0 0 10px;}
 .btn-box .btn:first-child{margin:0;}
 .btn-box.lefter{float:left;}
 .btn-box.center{text-align:center;}

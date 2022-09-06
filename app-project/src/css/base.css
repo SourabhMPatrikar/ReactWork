@@ -17,9 +17,10 @@ footer{}
 header{}
 #content{}
 footer{}
+/* Base Structure : End */
 
 
-/* Elements */
+/* Elements :Begin */
 #wrapper, header, #content, footer{}
 .header-top,
 .header-main,
@@ -30,4 +31,10 @@ footer{}
 #content{min-height:450px; padding:20px; }
 footer{height:200px;}
 .clear-fix{clear:both;}
-/* Base Structure : End */
+/* Elements :End */
+
+/* Common Component :Begin */
+.common-component{width:100%; float:left; clear:both;}
+.common-component .row{clear:both; padding:30px 20px;}
+.common-component .row .title h4{clear:both; padding:0 0 10px;} 
+/* Common Component :End */

@@ -2,10 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /* Font Family */
-html, body, .actwo{font-family:'Poppins', sans-serif; }
+html, body, .actwo,
+.common-component .row .title h4{font-family:'Poppins', sans-serif; }
 h1, h2, h3, h4, h5, h6
 {font-family: 'Oswald', sans-serif;}
 
 /* Font Weight */
 .navigation li a, .user-name{font-weight:500;}
+.common-component .row .title h4{font-weight:600;}
 .actwo{font-weight:900;}
