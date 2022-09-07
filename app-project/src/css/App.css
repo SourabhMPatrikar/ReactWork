@@ -6,6 +6,7 @@
 @import url('./base.css');
 @import url('./header.css');
 @import url('./alert.css');
+@import url('./badges.css');
 
 /*
 header{border:10px solid #00ff40;}
