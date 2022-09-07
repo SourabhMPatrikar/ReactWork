@@ -2,31 +2,73 @@
 .alert p.bold{font-weight:600;}
 
 /* Radius */
+.alert .close{border-radius:2px;}
 .alert{border-radius:3px;}
 
 /* Button : Color : Begin */
-.alert{background:#DDD;}
-.alert-success{background:rgba(5, 122, 22, .5);}
-.alert-danger{background:rgba(255, 0, 0, .5);}
-.alert-warn{background:rgba(217, 250, 1);}
+.alert{background:transparent;}
+.alert-default{background:#E0E0E0;}
+.alert-info{background:#d1ecf1;}
+.alert-primary{background:#cce5ff;}
+.alert-secondary{background:#e2e3e5;}
+.alert-dark{background:#d6d8d9;}
+.alert-light{background:#fefefe;}
+.alert-success{background:#d4edda;}
+.alert-danger{background:#f8d7da;}
+.alert-warn{background:#fff3cd;}
 
-.alert{border:1px solid #999;}
-.alert-success{border:1px solid #026912;}
-.alert-danger{border:1px solid #930303;}
-.alert-warn{border:1px solid #8ca104;}
+.alert, .alert .close{border:1px solid #FAFAFA;}
+.alert-default, .alert-default .close{border:1px solid #D0D0D0;}
+.alert-info, .alert-info .close{border:1px solid #bee5eb;}
+.alert-primary, .alert-primary .close{border:1px solid #9dbcdd;}
+.alert-secondary, .alert-secondary .close{border:1px solid #cbced3;}
+.alert-dark, .alert-dark .close{border:1px solid #b1b4b7;}
+.alert-light, .alert-light .close{border:1px solid #ececef;}
+.alert-success, .alert-success .close{border:1px solid #c3e6cb;}
+.alert-danger, .alert-danger .close{border:1px solid #dfaab0;}
+.alert-warn, .alert-warn .close{border:1px solid #ebddb1;}
 
-.alert{color:#777;}
-.alert-success{color:#067102;}
-.alert-danger{color:#9f0303;}
-.alert-warn{color:#997803;}
+
+
+
+.alert{color:#666;}
+.alert-default{color:#777;}
+.alert-info{color:#0c5460;}
+.alert-primary{color:#004085;}
+.alert-secondary{color:#383d41;}
+.alert-dark{color:#1b1e21;}
+.alert-light{color:#818182;}
+.alert-success{color:#155724;}
+.alert-danger{color:#721c24;}
+.alert-warn{color:#856404;}
+
+
+.alert .close:before, .alert .close:after{background:#666;}
+.alert-default  .close:before, .alert-default .close:after{background:#777;}
+.alert-info .close:before, .alert-info .close:after{background:#0c5460;}
+.alert-primary .close:before, .alert-primary .close:after{background:#004085;}
+.alert-secondary .close:before, .alert-secondary .close:after{background:#383d41;}
+.alert-dark .close:before, .alert-dark .close:after{background:#1b1e21;}
+.alert-light .close:before, .alert-light .close:after{background:#818182;}
+.alert-success .close:before, .alert-success .close:after{background:#155724;}
+.alert-danger .close:before, .alert-danger .close:after{background:#721c24;}
+.alert-warn .close:before, .alert-warn .close:after{background:#856404;}
+
+
+.alert .close:before, .alert .close:after{position:absolute; content:"";}
+.alert .close{border:1px solid;}
 /* Button : Color : End */
 
 /* Button : Begin */
-.alert{padding:15px 12px;}
-.alert p{width:calc(100% - 50px);}
+.alert{padding:15px; position:relative;}
+.alert p{width:calc(100% - 46px);}
 .alert p.bold{font-weight:600;}
 .alert p.italic{font-style:italic;}
 .alert p.under-line{text-decoration:underline;}
+.alert .close{position:absolute; top:15px; right:15px; width:15px; height:15px; cursor:pointer;}
+.alert .close:before, .alert .close:after{position:absolute; content:""; top:7px; left:1px; width:13px; height:1px;}
+.alert .close:before{transform:rotate(45deg);}
+.alert .close:after{transform:rotate(135deg);}
 /* Button : End */
 
 .common-component .row .alert + .alert{clear:both; margin:10px 0 0;}
