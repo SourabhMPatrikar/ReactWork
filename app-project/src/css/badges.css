@@ -50,14 +50,6 @@
 
 
 /*Border*/
-.badge{
-    display:inline-block;
-    padding:3px 4px;
-    font-weight:700;
-    text-align:center;
-    white-space:nowrap;
-    vertical-align:baseline;
-    line-height:12px;
-    font-size:12px;
-}
+.badge{display:inline-block; padding:3px 4px; font-weight:700; text-align:center; white-space:nowrap; vertical-align:baseline; line-height:12px; font-size:12px;}
+.badge-collection + .badge-collection{margin:5px 0 0 0 ;}
 .badge-collection .badge{margin:0 0 0 3px;}

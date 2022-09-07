@@ -2,9 +2,31 @@ import React from "react";
 import Button from "./Button";
 import Alert from "./Alert";
 import Badges from "./Badges";
+import Progress from "./progress";
 const Common = () => {
   return (
     <div className="common-component">
+    <div className="row">
+      <div className="title">
+        <h4>Progress</h4>
+      </div>
+      <div className="combine">
+        <div className="progress-collection">
+          <Progress variant="normal" percent="59" />
+          <Progress variant="default" percent="45" />
+          <Progress variant="info" percent="65" />
+          <Progress variant="primary" percent="80" />
+          <Progress variant="secondary" percent="20" />
+
+          <Progress variant="dark" percent="70" />
+          <Progress variant="light" percent="30" />
+
+          <Progress variant="success" percent="43" />
+          <Progress variant="danger" percent="50" />
+          <Progress variant="warn" percent="40" />
+        </div>
+      </div>
+    </div>
       <div className="row">
         <div className="title">
           <h4>Badges</h4>

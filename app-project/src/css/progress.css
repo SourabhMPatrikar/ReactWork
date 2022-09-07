@@ -1,0 +1,32 @@
+/* Color */
+.progress-bar{color:#fff;}
+.percentage{color:#333;}
+
+/* Background */
+.progress{background:#e9ecef; border:1px solid #c7d4e0;}
+.progress-bar{background:#007bff;}
+
+.bg-info{}
+.bg-default{background:#777;}
+.bg-info{background:#17a2b8;}
+.bg-primary{background:#004085;}
+.bg-secondary{background:#6c757d;}
+.bg-dark{background:#343a40;}
+.bg-light{background:#f8f9fa;}
+.bg-success{background:#28a745;}
+.bg-danger{background:#dc3545;}
+.bg-warn{background:#ffc107;}
+
+/* Transition */
+.progress-bar{transition:width .6s ease;}
+
+/* Border Radius */
+.progress{border-radius:0.25rem;}
+
+
+/* Progress */
+.progress, .progress-bar{display:-ms-flexbox; display:flex; height:1rem;}
+.progress{overflow:hidden; line-height:0; font-size:.75rem; position:relative;}
+.progress-bar{-ms-flex-direction:column; flex-direction:column; -ms-flex-pack:center; justify-content:center; text-align:center; white-space:nowrap; position:absolute; left:0; top:0;}
+.percentage{position:absolute; left:calc(100% + 5px); top:8px; font-weight:700;}
+.progress-collection .progress{clear:both; margin:10px 0 0;}
