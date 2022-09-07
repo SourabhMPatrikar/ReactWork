@@ -1,0 +1,35 @@
+
+.text-default{color:#DFDFDE;}
+.text-info{color:#17a2b8;}
+.text-primary{color:#007bff;}
+.text-secondary{color:#6c757d;}
+.text-light{color:#DEDEDF;}
+.text-dark{color:#343a40;}
+.text-success{color:#28a745;}
+.text-danger{color:#dc3545;}
+.text-warn{color:#ffc107;}
+
+
+/* .text-primary{color:#;}
+.text-primary{color:#;} */
+
+
+/* Border */
+.spinner-border{border:0.25em solid currentColor; border-right-color:transparent;}
+
+/* Border Radius */
+.spinner-border{border-radius:50%; }
+
+/* Clip */
+.sr-only{clip:rect(0,0,0,0);}
+
+/* animation */
+.spinner-border{-webkit-animation:spinner-border .75s linear infinite; animation:spinner-border .75s linear infinite;}
+
+
+.spinner-border{display:inline-block; width:2rem; height:2rem; vertical-align:text-bottom;}
+.sr-only{position:absolute; width:1px; height:1px; padding:0; overflow:hidden; white-space:nowrap; border:0;}
+
+
+.spinner-collection .spinner-border{margin:0 0 0 10px;}
+.spinner-collection .spinner-border:first-child{margin:0;}
