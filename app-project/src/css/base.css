@@ -1,6 +1,7 @@
 /* Colors */
 body{color:#333;}
 .common-component .row .title h4{color:#555;}
+.common-component .row .title h5{color:#777;}
 
 /* Background */
 .header-top{background:#333;}
@@ -38,5 +39,6 @@ footer{height:200px;}
 .common-component{width:100%; float:left; clear:both;}
 .common-component .row{clear:both; padding:30px 20px;}
 .common-component .row .title h4{clear:both; padding:0 0 10px; font-size:18px; line-height:18px;} 
+.common-component .row .title h5{clear:both; padding:0 0 10px; font-size:12px; line-height:12px;} 
 .common-component .row .combine{clear:both;}
 /* Common Component :End */

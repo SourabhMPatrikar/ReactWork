@@ -2,35 +2,35 @@ import React from "react";
 const Spinner = ({ variant, variantClass }) => {
   switch (variant) {
     case "default":
-      variant = "text-default";
+      variant = "loader-default";
       break;
     case "info":
-      variant = "text-info";
+      variant = "loader-info";
       break;
     case "primary":
-      variant = "text-primary";
+      variant = "loader-primary";
       break;
     case "secondary":
-      variant = "text-secondary";
+      variant = "loader-secondary";
       break;
     case "light":
-      variant = "text-light";
+      variant = "loader-light";
       break;
     case "dark":
-      variant = "text-dark";
+      variant = "loader-dark";
       break;
     case "success":
-      variant = "text-success";
+      variant = "loader-success";
       break;
     case "danger":
-      variant = "text-danger";
+      variant = "loader-danger";
       break;
     case "warn":
-      variant = "text-warn";
+      variant = "loader-warn";
       break;
     default:
       variant = "";
   }
-  return <div className={`spinner-border ${variant}`}></div>;
+  return <div className={`loader ${variant}`}></div>;
 };
 export default Spinner;
