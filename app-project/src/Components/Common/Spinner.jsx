@@ -31,6 +31,6 @@ const Spinner = ({ variant, variantClass }) => {
     default:
       variant = "";
   }
-  return <div class={`spinner-border ${variant}`}></div>;
+  return <div className={`spinner-border ${variant}`}></div>;
 };
 export default Spinner;
