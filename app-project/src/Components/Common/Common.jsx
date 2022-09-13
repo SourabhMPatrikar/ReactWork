@@ -4,15 +4,94 @@ import Alert from "./Alert";
 import Badges from "./Badges";
 import Progress from "./Progress";
 import Spinner from "./Spinner";
+import Color from "./Color";
 const Common = () => {
 	return (
 		<div className="common-component">
+		<div className="row">
+			<div className="title">
+				<h4>Color & Background</h4>
+			</div>
+			<div className="combine">
+				<div className="spinner-collection">
+					<div className="title">
+						<h5>Color</h5>
+					</div>
+					{/* <Color tag="p" color="text-normal" bg="" suffix="" text="" /> */}
+					{/* <Color tag="p" variant="default" text="text-default" /> */}
+					<Color color="info" text="text-info" />
+					<Color color="primary" text="text-primary" />
+					<Color color="secondary" text="text-secondary" />
+
+					<Color color="dark" text="text-dark" />
+					<Color color="light" text="text-light" />
+
+					<Color color="success" text="text-success" />
+					<Color color="danger" text="text-danger" />
+					<Color color="warn" text="text-warn" />
+					
+					<Color color="mute" text="text-mute" />
+					<hr />
+					<div className="title">
+						<h5>Background</h5>
+					</div>
+					
+					<Color color="info" bg="info" text="bg-info" />
+					<Color color="primary" bg="primary" text="bg-primary" />
+					<Color color="secondary" bg="secondary" text="bg-secondary" />
+
+					<Color color="dark" bg="dark" text="bg-dark" />
+					<Color color="light" bg="light" text="bg-light" />
+
+					<Color color="success" bg="success" text="bg-success" />
+					<Color color="danger" bg="danger" text="bg-danger" />
+					<Color color="warn" bg="warn" text="bg-warn" />
+					
+					<Color color="mute" bg="mute" text="bg-mute" />
+					<hr />
+					
+					<div className="title">
+						<h5>Color & Background with light color</h5>
+					</div>
+					<Color color="info" bg="info" suffix="light" text="bg-info" />
+					<Color color="primary" bg="primary" suffix="light" text="bg-primary" />
+					<Color color="secondary" bg="secondary" suffix="light" text="bg-secondary" />
+
+					<Color color="dark" bg="dark" suffix="light" text="bg-dark" />
+					<Color color="light" bg="light" suffix="light" text="bg-light" />
+
+					<Color color="success" bg="success" suffix="light" text="bg-success" />
+					<Color color="danger" bg="danger" suffix="light" text="bg-danger" />
+					<Color color="warn" bg="warn" suffix="light" text="bg-warn" />
+					
+					<Color color="mute" bg="mute" suffix="light" text="bg-mute" />
+					<hr />
+					
+					<div className="title">
+						<h5>Color & Background with dark</h5>
+					</div>
+					
+					<Color color="info" bg="info" suffix="dark" text="bg-info" />
+					<Color color="primary" bg="primary" suffix="dark" text="bg-primary" />
+					<Color color="secondary" bg="secondary" suffix="dark" text="bg-secondary" />
+
+					<Color color="dark" bg="dark" suffix="dark" text="bg-dark" />
+					<Color color="light" bg="light" suffix="dark" text="bg-light" />
+
+					<Color color="success" bg="success" suffix="dark" text="bg-success" />
+					<Color color="danger" bg="danger" suffix="dark" text="bg-danger" />
+					<Color color="warn" bg="warn" suffix="dark" text="bg-warn" />
+					
+					<Color color="mute" bg="mute" suffix="dark" text="bg-mute" />
+				</div>
+			</div>
+		</div>
 			<div className="row">
 				<div className="title">
 					<h4>Spinner</h4>
 				</div>
 				<div className="combine">
-					<div className="spinner-collection">
+					<div className="loader-collection">
 						<Spinner variant="normal" />
 						<Spinner variant="default" />
 						<Spinner variant="info" />

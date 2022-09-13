@@ -3,11 +3,13 @@
 
 /* Font Family */
 html, body, .actwo,
-.common-component .row .title h4{font-family:'Poppins', sans-serif; }
+.common-component .row .title h4,
+.common-component .row .title h5{font-family:'Poppins', sans-serif; }
 h1, h2, h3, h4, h5, h6
 {font-family: 'Oswald', sans-serif;}
 
 /* Font Weight */
 .navigation li a, .user-name{font-weight:500;}
 .common-component .row .title h4{font-weight:900;}
+.common-component .row .title h5{font-weight:900;}
 .actwo{font-weight:900;}

@@ -1,0 +1,58 @@
+/* Color */
+.text{color:#EEE;}
+.text-default{color:#DFDFDE;}
+.text-info{color:#17a2b8;}
+.text-primary{color:#007bff;}
+.text-secondary{color:#6c757d;}
+.text-light{color:#DEDEDF;}
+.text-dark{color:#343a40;}
+.text-success{color:#28a745;}
+.text-danger{color:#dc3545;}
+.text-warn{color:#ffc107;}
+.text-mute{color:#6c757d;}
+
+/* Background */
+.bg{background:#EEE;}
+.bg-default{background:#DFDFDE;}
+.bg-info{background:#17a2b8;}
+.bg-primary{background:#007bff;}
+.bg-secondary{background:#6c757d;}
+.bg-light{background:#DEDEDF;}
+.bg-dark{background:#343a40;}
+.bg-success{background:#28a745;}
+.bg-danger{background:#dc3545;}
+.bg-warn{background:#ffc107;}
+.bg-mute{background:#6c757d;}
+
+/* Color As per Bg : Black */
+.bg.black{color:#333;}
+.bg-default.black{color:#333;}
+.bg-info.black{color:#333;}
+.bg-primary.black{color:#333;}
+.bg-secondary.black{color:#333;}
+.bg-light.black{color:#333;}
+.bg-dark.black{color:#333;}
+.bg-success.black{color:#333;}
+.bg-danger.black{color:#333;}
+.bg-warn.black{color:#333;}
+.bg-mute.black{background:#333;}
+
+/* Color As per Bg : White */
+.bg.white{color:#FFF;}
+.bg-default.white{color:#FFF;}
+.bg-info.white{color:#FFF;}
+.bg-primary.white{color:#FFF;}
+.bg-secondary.white{color:#FFF;}
+.bg-light.white{color:#FFF;}
+.bg-dark.white{color:#FFF;}
+.bg-success.white{color:#FFF;}
+.bg-danger.white{color:#FFF;}
+.bg-warn.white{color:#FFF;}
+.bg-mute.white{background:#FFF;}
+
+/*Badge*/
+.text-collection{}
+.text-collection + .text-collection{margin:5px 0 0 0 ;}
+.text-collection p{margin:0 0 0 3px;}
+.text-collection p:first-child{margin:0;}
+
