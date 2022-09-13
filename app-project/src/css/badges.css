@@ -13,6 +13,7 @@
 .badge-success,
 .badge-danger{color:#DDD;}
 
+/* Color : Black */
 .badge.black{color:#333;}
 .badge-default.black{color:#333;}
 .badge-info.black{color:#333;}
@@ -24,6 +25,7 @@
 .badge-danger.black{color:#333;}
 .badge-warn.black{color:#333;}
 
+/* Color : White */
 .badge.white{color:#FFF;}
 .badge-default.white{color:#FFF;}
 .badge-info.white{color:#FFF;}
