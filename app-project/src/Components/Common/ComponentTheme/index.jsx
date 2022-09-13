@@ -5,7 +5,7 @@ import Badges from "./Badges";
 import Progress from "./Progress";
 import Spinner from "./Spinner";
 import Color from "./Color";
-const Common = () => {
+const ComponentTheme = () => {
 	return (
 		<div className="common-component">
 		<div className="row">
@@ -270,4 +270,4 @@ const Common = () => {
 		</div>
 	);
 };
-export default Common;
+export default ComponentTheme;

@@ -1,4 +1,5 @@
 import React from "react";
+import "../../../css/Theme/button.css";
 const Button = ({ variant, btnText, handleClick }) => {
 	//let classVariantName = variant === "default" ? "btn-default" : "btn";
 	switch (variant) {

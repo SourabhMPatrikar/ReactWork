@@ -1,4 +1,5 @@
 import React from "react";
+import "../../../css/Theme/badges.css";
 const Badges = ({ variant, badgesText, badgeColor }) => {
   switch (variant) {
     case "default":

@@ -1,4 +1,5 @@
 import React from "react";
+import "../../../css/Theme/color.css";
 const Color = ({ color, tag, bg, suffix, text }) => {
 //   const tagName = tag;
   switch (color) {

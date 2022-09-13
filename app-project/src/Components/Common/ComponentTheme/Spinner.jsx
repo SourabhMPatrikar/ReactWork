@@ -1,4 +1,5 @@
 import React from "react";
+import "../../../css/Theme/spinner.css";
 const Spinner = ({ variant, variantClass }) => {
   switch (variant) {
     case "default":

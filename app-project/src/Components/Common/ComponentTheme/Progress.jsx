@@ -1,4 +1,5 @@
 import React from "react";
+import "../../../css/Theme/progress.css";
 const Progress = ({variant, percent}) => {
     if(variant === "default"){variant="";}
     else if(variant === "info"){variant="bg-info";}

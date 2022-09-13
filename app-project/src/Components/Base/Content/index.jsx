@@ -1,5 +1,5 @@
 import React from "react";
-import Common from "../../Common/Common";
+import Common from "../../Common/ComponentTheme/";
 const Content = () => {
     return(
         <div id="content">

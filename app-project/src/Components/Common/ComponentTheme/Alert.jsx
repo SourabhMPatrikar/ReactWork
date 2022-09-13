@@ -1,4 +1,5 @@
 import React from "react";
+import "../../../css/Theme/alert.css";
 const Alert = ({ alertType, alertText, alertTextType }) => {
 
   let alertVariant =
