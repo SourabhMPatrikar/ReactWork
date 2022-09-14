@@ -41,4 +41,7 @@ footer{height:200px;}
 .common-component .row .title h4{clear:both; padding:0 0 10px; font-size:18px; line-height:18px;} 
 .common-component .row .title h5{clear:both; padding:0 0 10px; font-size:12px; line-height:12px;} 
 .common-component .row .combine{clear:both;}
+.common-component .row .combine .navigation ul li{position: relative;}
+.common-component .row .combine .navigation ul li > .dropdown{width:100%; top:34px; z-index:100;}
+.common-component .row .combine .navigation ul li .user-name{margin:0 10px; padding:0 10px 0 0;}
 /* Common Component :End */
