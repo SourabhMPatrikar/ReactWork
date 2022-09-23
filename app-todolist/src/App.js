@@ -1,6 +1,6 @@
 import './Styles/App.css';
-import ToDoListA from './ToDoListA/ToDoListA';
-import ToDoListB from './ToDoListB/ToDoListB';
+import ToDoListA from './Components/ToDoListA/ToDoListA';
+import ToDoListB from './Components/ToDoListB/ToDoListB';
 function App() {
   return (
     <div className="app">

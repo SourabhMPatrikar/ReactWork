@@ -1,13 +1,13 @@
 import React from "react";
-const ToDoListA = () => {
+const ToDoListD = () => {
     return(
         <>
             <div className="todoform">
                 <div className="todoinput">
                     <input type="text" placeholder="Type here"/>
                     <div className="todo-action">
-                        <input type="button" value="Add" className="btn-info"/>
-                        <input type="button" value="Reset" className="btn-secondary"/>
+                    <input type="button" value="Add" className="btn-info"/>
+                    <input type="button" value="Reset" className="btn-secondary"/>
                     </div>
                 </div>
                 </div>
@@ -40,4 +40,4 @@ const ToDoListA = () => {
         </>
     )
 }
-export default ToDoListA;
+export default ToDoListD;

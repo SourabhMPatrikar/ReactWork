@@ -1,6 +1,6 @@
 .app{}
 /* Base HTML */
-ul, ul li, ol li{padding:0; margin:0;}
+ul, ul li, ol li, p{padding:0; margin:0;}
 ul li{list-style:none;}
 input[type="button"]{font-weight:bold;}
 input[type="text"]{padding:12px 10px; }
@@ -10,7 +10,7 @@ input[type="text"]:focus{outline:0;}
 /* Colors */
 .appbox{background:#FBFBFB; border:1px solid #D4D4D4;}
 .todoform{background:#efefef;}
-.todoinput input[type="text"]{border:1px solid #999;}
+.todoinput input[type="text"]{border:1px solid #999; color:#333;}
 .todoinput input[type="text"]:focus{border:1px solid #125dbf; }
 .todoul ul{}
 .todoul ul li{border-bottom:1px solid #999; border-left:1px solid #999; border-right:1px solid #999; background:#EEE; color:#666;}
@@ -57,7 +57,9 @@ input[type="text"]:focus{outline:0;}
     filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#000000',GradientType=0 );
 }
 .btn-danger:focus{border:1px solid #999; color:#FFF;}
-
+.message{background:#F1F1F1; border:1px solid #DDD;}
+.message.yellow{background:#fdfad2; border:1px solid #facf72;}
+.message p{color:#666;}
 
 /* Main Structure */
 .appbox{width:calc(50% - 40px); position:absolute; height:calc(100% - 40px); top:20px; left:20px;}
@@ -72,10 +74,14 @@ input[type="text"]:focus{outline:0;}
 .todoinput input[type="text"], .todoul ul li{float:left; width:430px;}
 .todoinput input[type="text"]{height:14px;}
 .todoinput .todo-action input[type="button"]{margin:0 0 0 10px; padding:11px 15px; width:calc(50% - 11px); text-align:center;}
-.todolist{width:100%; float:left; clear:both;}
-.todoul{padding:20px; width:calc(100% - 40px); height:100%; overflow:hidden;}
+.todolist{width:100%; float:left; clear:both; height:calc(100% - 120px); position:relative;}
+.todoul{padding:20px; width:calc(100% - 40px); height:100%; overflow:auto;}
 .todoul ul{}
 .todoul ul li{padding:10px; text-align:left; position:relative;}
 .todoul ul li:hover{text-indent:5px;}
-.todolist .todo-action{position:absolute; left:calc(100% + 10px); top:0;}
+.todolist .todo-action{position:absolute; left:calc(100% + 10px); top:0; min-width:245px;}
 .todo-action input[type="button"]{float:left; padding:7px 35px; min-width:115px; margin:5px 0 0 2px;}
+.todo-action input[type="button"] + input[type="button"]{margin:5px 0 0 10px;}
+.message{width:calc(100% - 42px); padding:20px; position:absolute; left:0; top:0; z-index:1;}
+.message p{width:100%; float:left; clear:both;}
+.message.yellow{z-index:2;}

@@ -1,5 +1,5 @@
 import React from "react";
-const ToDoListB = () => {
+const ToDoListC = () => {
     return(
         <>
             <div className="todoform">
@@ -40,4 +40,4 @@ const ToDoListB = () => {
         </>
     )
 }
-export default ToDoListB;
+export default ToDoListC;
