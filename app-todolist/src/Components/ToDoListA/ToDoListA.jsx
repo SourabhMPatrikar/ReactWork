@@ -57,25 +57,31 @@ const ToDoListA = () => {
         })
         setItems(updatedList);
     }
-    const handleEdit = (itemName, itemId) => {
-        // debugger
+    const handleEdit = (itemName, itemId, itemName2, itemId2) => {
+
+        debugger
+        itemName2 =itemName;
+        itemId2= itemId;
+        setIsTODoList(itemName);
+        setEditField(itemName);
+
+
         const updatItem = items.map((item)=>
         item.Id === itemId ? {itemName, itemId} : item 
         );
 
         setItems(updatItem);
-        setEditField("");
 
     }
-    useEffect(()=>{
-        debugger
-        if(editField){
-            setIsTODoList(editField.itemName);
-        }
-        else{
-            setIsTODoList("");
-        }
-    },[setIsTODoList, editField])
+    // useEffect(()=>{
+    //     debugger
+    //     if(editField){
+    //         setIsTODoList(editField.itemName);
+    //     }
+    //     else{
+    //         setIsTODoList("");
+    //     }
+    // },[setIsTODoList, editField])
     return(
         <>
             <div className="todoform">
