@@ -62,11 +62,13 @@ input[type="text"]:focus{outline:0;}
 .message p{color:#666;}
 
 /* Main Structure */
-.appbox{width:calc(50% - 40px); position:absolute; height:calc(100% - 40px); top:20px; left:20px;}
+.app-row{height:calc(50% - (-10px)); width:100%; position:absolute; left:0; top:0;}
+.app-row + .app-row{top:calc(50% - 10px);}
+.appbox{width:calc(50% - 34px); position:absolute; height:calc(100% - 40px); top:20px; left:20px;}
 .appbox + .appbox{left:calc(50% + 10px);}
 .btn-info{line-height:16px; font-size:14px;}
 .btn-danger{line-height:16px; font-size:12px;}
-.todoform{float:left; width:calc(100% - 40px); padding:20px;}
+.todoform{float:left; width:calc(100% - 20px); padding:10px;}
 .todoform .todo-action{float:left; width:calc(100% - 452px);}
 .todoform .todo-action{float:left; width:calc(100% - 452px);}
 .todoinput, .todoul, .todoul ul, .todoul ul li, .todo-item{float:left; width:100%;}
@@ -74,8 +76,9 @@ input[type="text"]:focus{outline:0;}
 .todoinput input[type="text"], .todoul ul li{float:left; width:430px;}
 .todoinput input[type="text"]{height:14px;}
 .todoinput .todo-action input[type="button"]{margin:0 0 0 10px; padding:11px 15px; width:calc(50% - 11px); text-align:center;}
-.todolist{width:100%; float:left; clear:both; height:calc(100% - 120px); position:relative;}
-.todoul{padding:20px; width:calc(100% - 40px); height:100%; overflow:auto;}
+.todoinput .todo-action input[type="button"] + input[type="button"]{margin:0 0 0 10px;}
+.todolist{width:calc(100% - 10px); padding:10px 0 10px 10px; float:left; clear:both; height:calc(100% - 80px); position:relative;}
+.todoul{width:calc(100% - 0px); height:100%; overflow:auto;}
 .todoul ul{}
 .todoul ul li{padding:10px; text-align:left; position:relative;}
 .todoul ul li:hover{text-indent:5px;}
